@@ -19,9 +19,9 @@ Last Updated: 23/12/2019
 
 License: Apache License Version 2.0
 
-Source Code: [Github](/)
+Source Code: [Github](https://github.com/dataiku/dss-plugin-elo-ratings)
 
-Reporting Issues: [Github](/issues)
+Reporting Issues: [Github](https://github.com/dataiku/dss-plugin-elo-ratings/issues)
 
 ## How to Use
 
@@ -29,14 +29,17 @@ Reporting Issues: [Github](/issues)
 
 This recipe can be applied to a dataset containing the interaction history between entities to give an output dataset with additional columns containing Elo rating features.
 
-*Required Columns:* Interaction ID, Interaction Datetime, Entity 1 ID, Entity 2 ID, Entity 1 Score, Entity 2 Score
+- *Required Columns:* 
+Interaction ID, Interaction Datetime, Entity 1 ID, Entity 2 ID, Entity 1 Score, Entity 2 Score
 
-*Optional Columns:* Interaction Importance Level
+- *Optional Columns:* 
+Interaction Importance Level
 
-*Additional Ouput Columns:* Entity 1 Elo Rank (before interaction), Entity 1 New Elo Rank (after interaction), Entity 2 Elo Rank (before interaction), Entity 2 New Elo Rank (after interaction), Entity 1 Rank Change, Entity 2 Rank Change, Probability of Entity 1 Win (using Entity 1 Elo Rank), Probability of Entity 2 Win (using Entity 2 Elo Rank)
+- *Additional Ouput Columns:* 
+Entity 1 Elo Rank (before interaction), Entity 1 New Elo Rank (after interaction), Entity 2 Elo Rank (before interaction), Entity 2 New Elo Rank (after interaction), Entity 1 Rank Change, Entity 2 Rank Change, Probability of Entity 1 Win (using Entity 1 Elo Rank), Probability of Entity 2 Win (using Entity 2 Elo Rank)
 
 Note: Any other additional input columns will be preserved in the output.
 
-# Install in DSS
+## Install in DSS
 
 To install plugin Elo Ratings in DSS go to Plugins -> Store and search for 'Elo Ratings'.
