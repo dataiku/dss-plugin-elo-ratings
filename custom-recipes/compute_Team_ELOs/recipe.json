@@ -53,57 +53,57 @@
         
         {
             "name": "matchId",
-            "label" : "MatchId column",
+            "label" : "Interaction ID column",
             "type": "COLUMN",
-            "description": "Select the match ID column",
+            "description": "Select the Interaction ID column",
             "mandatory" : true,
             "columnRole":"input_dataset"
         },
         {
             "name": "match_datetime",
-            "label" : "Match datetime column",
+            "label" : "Interaction datetime column",
             "type": "COLUMN",
-            "description": "Select the match datetime column",
+            "description": "Select the Interaction datetime column",
             "mandatory" : true,
             "columnRole":"input_dataset"
         },
         {
             "name": "homeTeamId",
-            "label" : "Player 1 ID column",
+            "label" : "Entity 1 ID column",
             "type": "COLUMN",
-            "description": "Select the player 1 ID column",
+            "description": "Select the Entity 1 ID column",
             "mandatory" : true,
             "columnRole":"input_dataset"
         },
         {
             "name": "awayTeamId",
-            "label" : "Player 2 ID column",
+            "label" : "Entity 2 ID column",
             "type": "COLUMN",
-            "description": "Select the player 2 ID column",
+            "description": "Select the Entity 2 ID column",
             "mandatory" : true,
             "columnRole":"input_dataset"
         },
         {
             "name": "homeTeam_goals",
-            "label" : "Player 1 score column",
+            "label" : "Entity 1 score column",
             "type": "COLUMN",
-            "description": "Select the player 1 score column. If W/D/L this column should contain 1/0.5/0.",
+            "description": "Select the Entity 1 score column. If W/D/L this column should contain 1/0.5/0.",
             "mandatory" : true,
             "columnRole":"input_dataset"
         },
         {
             "name": "awayTeam_goals",
-            "label" : "Player 2 score column",
+            "label" : "Entity 2 score column",
             "type": "COLUMN",
-            "description": "Select the player 2 score column. If W/D/L this column should contain 1/0.5/0.",
+            "description": "Select the Entity 2 score column. If W/D/L this column should contain 1/0.5/0.",
             "mandatory" : true,
             "columnRole":"input_dataset"
         },
         {
             "name": "match_level",
-            "label" : "Match importance level",
+            "label" : "Interaction importance level",
             "type": "COLUMN",
-            "description": "Select the match importance level column (OPTIONAL)",
+            "description": "Select the Interaction importance level column (OPTIONAL)",
             "mandatory" : false,
             "columnRole":"input_dataset"
         }
