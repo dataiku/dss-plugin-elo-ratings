@@ -1,4 +1,1 @@
-dataiku
-numpy
-scipy
-pandas
+scipy==1.4.1
